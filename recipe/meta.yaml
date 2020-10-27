@@ -1,4 +1,4 @@
-{% set version = "1.2.3" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/odbc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/odbc/odbc_{{ version }}.tar.gz
-  sha256: 1e6eab47295835728dc4500eba423f3ffab0e0178d8770630fe764e62fc56911
+  sha256: cf35baa7538239296389aab55f6e9a0a4ffdbf8f5214464644873e42b89254d4
 
 build:
   merge_build_host: true  # [win]
