@@ -1,4 +1,4 @@
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/odbc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/odbc/odbc_{{ version }}.tar.gz
-  sha256: 7eb4dc2056d85015af64c4bb4bf45c84cb29702f9b9860d631c622dd5e6f7d9e
+  sha256: 2221b72ba658c7f7ab64a04ed2a5c759e4ad51dff966403c07b6928cd7f5a84e
 
 build:
   number: 0
